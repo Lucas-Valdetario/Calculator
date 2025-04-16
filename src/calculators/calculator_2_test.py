@@ -10,4 +10,6 @@ def test_calculate():
     Mock_Request = MockRequest({ "numbers": [2.12, 4.62, 1.32]})
 
     calculator_2 = Calculator2()
-    calculator_2.calculate(Mock_Request)
+    formated_response = calculator_2.calculate(Mock_Request)
+    print()
+    print(formated_response)
